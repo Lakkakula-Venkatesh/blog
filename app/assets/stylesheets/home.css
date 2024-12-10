@@ -1,0 +1,52 @@
+body {
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: Arial, sans-serif;
+  padding: 5px 25px;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+
+  .new-article-link {
+    margin: 20px 5px;
+    display: grid;
+    place-items: center;
+    background-color: #259fa5;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+.article-link {
+  text-decoration: none;
+}
+
+.article-card {
+  background-color: #fff; /* Light background */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px;
+  margin-bottom: 20px; /* Space between cards */
+}
+
+.article-card h2 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.article-card p {
+  color: #666; /* Slightly darker text */
+  line-height: 1.5;
+}
+
+/* Optional: Hover effect */
+.article-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px); /* Slight lift on hover */
+}
